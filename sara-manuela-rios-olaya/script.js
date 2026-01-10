@@ -90,3 +90,8 @@ console.log(invitadoEncontrado)
 const precios = [45, 12, 89, 34]; 
 const indicePrecio = precios.findIndex(precioItem => precioItem === 89);
 console.log(indicePrecio);
+
+/*EJERCICIO 10: Comprobación de existencia (inmutable)*/
+const cursos = ["Git", "React", "Node"];
+const verificacionCurso = cursos.includes("JavaScript");
+console.log(verificacionCurso);
