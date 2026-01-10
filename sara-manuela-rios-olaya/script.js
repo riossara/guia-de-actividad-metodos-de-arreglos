@@ -80,3 +80,9 @@ console.log(nombres);
 let orden = [1, 2, 3, 4, 5];
 orden.reverse();
 console.log(orden);
+
+/*EJERCICIO 8: Búsqueda de valor (declarativo)*/
+const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
+const invitadoEncontrado = invitados.find(nombrePersona => nombrePersona === "Pedro");
+console.log(invitadoEncontrado)
+
