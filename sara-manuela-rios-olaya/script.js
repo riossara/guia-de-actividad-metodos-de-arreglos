@@ -76,3 +76,7 @@ let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
 nombres.sort(); 
 console.log(nombres);
 
+/* EJERCICIO 7: Inversión de datos (mutable)*/
+let orden = [1, 2, 3, 4, 5];
+orden.reverse();
+console.log(orden);
