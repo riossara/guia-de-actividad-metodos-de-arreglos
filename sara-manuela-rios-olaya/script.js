@@ -64,3 +64,9 @@ const inventario = [5, 12, 8, 130, 44];
 const grandesValores = inventario.filter(n => n > 10); 
 console.log(grandesValores);
 console.log(inventario);
+
+/*EJERCICIO 5: Acumulación de datos (inmutable) */
+const ventas = [100, 250, 150, 400];
+const sumaTotalVentas = ventas.reduce((acumulador, ventaIndividual) => acumulador + ventaIndividual, 0);
+console.log(sumaTotalVentas); 
+console.log(ventas);
