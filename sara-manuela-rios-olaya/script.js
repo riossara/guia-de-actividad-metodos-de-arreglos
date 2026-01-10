@@ -70,3 +70,9 @@ const ventas = [100, 250, 150, 400];
 const sumaTotalVentas = ventas.reduce((acumulador, ventaIndividual) => acumulador + ventaIndividual, 0);
 console.log(sumaTotalVentas); 
 console.log(ventas);
+
+/*EJERCICIO 6: Ordenamiento alfabético (mutable) */
+let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
+nombres.sort(); 
+console.log(nombres);
+
