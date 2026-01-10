@@ -105,3 +105,9 @@ console.log(verificacion);
 const puntajes = [20, 25, 19, 30];
 const verificacionParcial = puntajes.some(valorPuntaje => valorPuntaje > 10);
 console.log(verificacionParcial);
+
+/*EJERCICIO 13: Concatenación (inmutable)*/
+const filaA = ["A1", "A2"]; 
+const filaB = ["B1","B2"];
+const todasLasFilas = filaA.concat(filaB);
+console.log(todasLasFilas);
