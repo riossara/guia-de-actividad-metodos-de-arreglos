@@ -101,3 +101,7 @@ const edades = [20, 25, 19, 30];
 const verificacion = edades.every(edadPersona => edadPersona >= 18); 
 console.log(verificacion);
 
+/*EJERCICIO 12: Validación parcial (declarativo)*/
+const puntajes = [20, 25, 19, 30];
+const verificacionParcial = puntajes.some(valorPuntaje => valorPuntaje > 10);
+console.log(verificacionParcial);
