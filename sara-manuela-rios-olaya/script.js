@@ -95,3 +95,9 @@ console.log(indicePrecio);
 const cursos = ["Git", "React", "Node"];
 const verificacionCurso = cursos.includes("JavaScript");
 console.log(verificacionCurso);
+
+/*EJERCICIO 11: Validación total (declarativo)*/
+const edades = [20, 25, 19, 30];
+const verificacion = edades.every(edadPersona => edadPersona >= 18); 
+console.log(verificacion);
+
