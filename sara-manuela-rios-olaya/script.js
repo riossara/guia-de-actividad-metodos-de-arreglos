@@ -52,3 +52,8 @@ let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
 colores.splice(1,0, "Naranja");
 colores.splice(3, 1, "Morado");
 console.log(colores);
+
+/*EJERCICIO 3: Transformación declarativa (inmutable)*/
+const temperaturas = [15, 20, 25, 30];
+const fahrenheit = temperaturas.map(C => (C*9/5) + 32);
+console.log(fahrenheit);
