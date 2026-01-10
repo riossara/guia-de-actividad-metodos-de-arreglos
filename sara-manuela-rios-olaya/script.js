@@ -116,3 +116,9 @@ console.log(todasLasFilas);
 const palabras = ["Hola", "Mundo", "JavaScript"];
 const cadenaString = palabras.join (" "); 
 console.log(cadenaString);
+
+/*EJERCICIO 15: Extracción de Rango (Inmutable)*/
+const base = ["Elemento0","Elemento1","Elemento2","Elemento3"];
+const nuevoArray = base.slice (1,3);
+console.log(nuevoArray);
+console.log(base);
