@@ -57,3 +57,10 @@ console.log(colores);
 const temperaturas = [15, 20, 25, 30];
 const fahrenheit = temperaturas.map(C => (C*9/5) + 32);
 console.log(fahrenheit);
+console.log(temperaturas);
+
+/*EJERCICIO 4: Filtrado selectivo (inmutable)*/
+const inventario = [5, 12, 8, 130, 44];
+const grandesValores = inventario.filter(n => n > 10); 
+console.log(grandesValores);
+console.log(inventario);
