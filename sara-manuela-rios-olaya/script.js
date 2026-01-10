@@ -111,3 +111,8 @@ const filaA = ["A1", "A2"];
 const filaB = ["B1","B2"];
 const todasLasFilas = filaA.concat(filaB);
 console.log(todasLasFilas);
+
+/*EJERCICIO 14: Formateo de String (Inmutable)*/
+const palabras = ["Hola", "Mundo", "JavaScript"];
+const cadenaString = palabras.join (" "); 
+console.log(cadenaString);
